@@ -15,20 +15,20 @@ nav a{
 }
 .jumbotron{
 	background-color: #C7F0DB;
-	/*background-image: url(../img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 	background-attachment: fixed;
 	background-size: covers;
-	background-position: 0 -1000px;*/
+	background-position: 0 -1000px;
 	overflow: hidden;
 }
 .jumbotron img{
 	width: 200px;
 	border: 5px solid #80BDAB;
-	/*box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);*/
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
-/*.jumbotron h1, .jumbotron p{
+.jumbotron h1, .jumbotron p{
 	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}*/
+}
 hr{
 	width: 250px;
 	border-top: 3px solid #80BDAB;
