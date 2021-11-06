@@ -15,7 +15,7 @@ nav a{
 }
 .jumbotron{
 	background-color: #C7F0DB;
-	background-image: url(../img/bg.jpg);
+	background-image: url(../img/bg.png);
 	background-attachment: fixed;
 	background-size: covers;
 	background-position: 0 -1000px;
