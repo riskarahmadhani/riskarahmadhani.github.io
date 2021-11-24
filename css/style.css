@@ -73,7 +73,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  height: 80px;
   background-color: #80bdab;
   padding-top: 20px;
 }
@@ -87,6 +87,10 @@ footer p {
 }
 
 footer a img {
+  padding-bottom: 2%;
+}
+
+footer a img {
   width: 20px;
-  margin: 0 1% 2% 2%;
+  margin: 0 1% 0 2%;
 }
