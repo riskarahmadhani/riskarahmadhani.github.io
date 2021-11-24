@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Membuat form</title>
+	<style type="text/css">
+		h1{
+			font-size: 50px;
+			font-weight: bold;
+			margin: 50px auto;
+			text-align: center;
+		}
+		label{
+			font-size: 20px;
+		}
+		input, select{
+			height: 30px;
+		}
+		button{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1>Membuat form dengan HTML</h1>
+	<table>
+		<form>
+			<tr>
+				<td><label for="Nama">Nama</label></td>
+				<td>:</td>
+				<td><input stype="text" name="nama" id="Nama" placeholder="Nama Anda" size="90%"></td>
+			</tr>
+			<tr>
+				<td><label for="Alamat">Alamat</label></td>
+				<td>:</td>
+				<td><textarea rows="8" id="Alamat Anda" placeholder="Alamat Anda" cols="100%"></textarea></td>
+			</tr>
+			<tr>
+				<td><label for="tempatlahir">Tempat Lahir</label></td>
+				<td>:</td>
+				<td><input type="text" name="tempatlahir" id="tempatlahir" placeholder="Tempat Lahir Anda" size="90%"></td>
+			</tr>
+			<tr>
+				<td><label for="tgllahir">Tgl Lahir</label></td>
+				<td>:</td>
+				<td><input type="nomor" name="tgllahir" id="tgllahir" size="20%" placeholder="8">
+					<select>
+						<option>Januari</option>
+						<option>Februari</option>
+						<selecton>Maret</option>
+						<option>April</option>
+						<option>Mei</option>
+						<option>Juni</option>
+						<option>Juli</option>
+						<option>Agustus</option>
+						<option>September</option>
+						<option>Oktober</option>
+						<option>November</option>
+						<option>Januari</option>
+					</select>
+					<input type="nomor" id="tgllahir" size="20%" placeholder="25">				
+				</td>
+			</tr>
+			<tr>
+				<td><label for="telepon">Telpon</label></td>
+				<td>:</td>
+				<td><input type="nomor" name="Telpon" id="telepon" size="33%" placeholder="No.Telpon Anda"></td>
+			</tr>
+			<tr>
+				<td><label for="Jeniskelamin">Jenis Kelamin</label></td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="Jeniskelamin" id="Laki-laki" size="50%"><label for="Laki-laki" form="Jeniskelamin">Laki-laki &ensp;
+					<input type="radio" name="Jeniskelamin" id="Perempuan" size="50%"><label for="Perempuan" form="Jeniskelamin">Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><button type="submit">submit</button>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+					<button type="reset" class="reset">reset</button>
+				</td>
+			</tr>
+		</form>
+	</table>
+</div>
+</body>
+</html>

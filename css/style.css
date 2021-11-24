@@ -1,80 +1,92 @@
-html{
-	position: relative;
+html {
+  position: relative;
 }
-body{
-	margin-bottom: 80px;
-	margin-top: 30px;
+body {
+  margin-bottom: 80px;
+  margin-top: 30px;
 }
-.navbar{
-	background-color: #80BDAB;
-	border: 1px solid #80BDAB;
+.navbar {
+  background-color: #80bdab;
+  border: 1px solid #80bdab;
 }
-nav a{
-	font-size: 1.2em;
-	font-weight: 1.2em;
+nav a {
+  font-size: 1.2em;
+  font-weight: 1.2em;
 }
-.jumbotron{
-	background-color: #C7F0DB;
-	background-image: url(../img/bg.png);
-	background-attachment: fixed;
-	background-size: covers;
-	background-position: 0 -1000px;
-	overflow: hidden;
+.jumbotron {
+  background-color: #c7f0db;
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+  background-size: covers;
+  background-position: 0 -1000px;
+  overflow: hidden;
 }
-.jumbotron img{
-	width: 200px;
-	border: 5px solid #80BDAB;
-	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+.jumbotron img {
+  width: 200px;
+  border: 5px solid #80bdab;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
-.jumbotron h1, .jumbotron p{
-	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
-hr{
-	width: 250px;
-	border-top: 3px solid #80BDAB;
+hr {
+  width: 250px;
+  border-top: 3px solid #80bdab;
 }
-.pKiri, .pKanan{
-	opacity: 0;
-	transform: translate(-50px, 0);
-	transition: 1s;
+.pKiri,
+.pKanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
 }
-.pKanan{
-	transform: translate(50px, 0);
+.pKanan {
+  transform: translate(50px, 0);
 }
-.pKiri.pMuncul, .pKanan.pMuncul{
-	opacity: 1;
-	transform: translate(0,0);
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
 }
-section{
-	min-height: 620px;
+section {
+  min-height: 620px;
 }
-section p{
-	font-size: 1.2em;
+section p {
+  font-size: 1.2em;
 }
-section button{
-	background-color: #599985;
+section button {
+  background-color: #599985;
 }
-.portfolio{
-	background-color: #C7F0DB;
+.portfolio {
+  background-color: #c7f0db;
 }
-.portfolio .thumbnail{
-	opacity: 0;
-	transform: translate(0, -20px);
-	transition: 0.5s;
+.portfolio .thumbnail {
+  opacity: 0;
+  transform: translate(0, -20px);
+  transition: 0.5s;
 }
-.portfolio .thumbnail.muncul{
-	opacity: 1;
-	transform: translate(0,0);
+.portfolio .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
 }
-footer{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 70px;
-	background-color: #80BDAB;
-	padding-top: 20px;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #80bdab;
+  padding-top: 20px;
 }
-footer p, footer a{
-	color: #599985;
-	font-size: 1em;
+footer a,
+footer i {
+  color: black;
+}
+footer p {
+  color: #444;
+  font-size: 1em;
+}
+
+footer a img {
+  width: 20px;
+  margin: 0 1% 2% 2%;
 }
